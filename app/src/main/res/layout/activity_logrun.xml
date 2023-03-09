@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oip"
+    tools:context=".LogRunActivity"
+    tools:ignore="MissingDefaultResource">
+
+
+    <TextView
+        android:id="@+id/workout_pref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="80dp"
+        android:text="Workout Review"
+        android:textColor="#F4F2F2"
+        android:textSize="34sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/typeId"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="166dp"
+        android:text="Cardio Type:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/cardioType"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="166dp"
+        android:textColor="#FFFFFF"
+        android:inputType="text"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/timeID"
+        android:layout_width="175dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="225dp"
+        android:text="Time:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/ex1_1"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginStart="250dp"
+        android:textColor="#FFFFFF"
+        android:inputType="text"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/distance_Id"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="300dp"
+        android:text="Distance:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/ex1_2"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="250dp"
+        android:textColor="#FFFFFF"
+        android:inputType="text"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/backBtm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="111dp"
+        android:text="Back"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText" />
+
+
+</RelativeLayout>

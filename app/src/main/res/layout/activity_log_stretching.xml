@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oip"
+    tools:context=".LogStretchingActivity"
+    tools:ignore="MissingDefaultResource">
+
+
+    <TextView
+        android:id="@+id/workout_pref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="72dp"
+        android:text="Workout Review"
+        android:textColor="#F4F2F2"
+        android:textSize="34sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/exerciseId"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="166dp"
+        android:text="Exercise: "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/ex1"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="200dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex2"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="225dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex3"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="250dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex4"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="275dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex5"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="300dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex6"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="325dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex7"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="350dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex8"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="375dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/setsId"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="166dp"
+        android:text="Sets:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/ex1_1"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="200dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex2_1"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="225dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex3_1"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="250dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex4_1"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="275dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex5_1"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="300dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex6_1"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="325dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex7_1"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="350dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex8_1"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="375dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/repsId"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="166dp"
+        android:text="Reps:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/ex1_2"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="200dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex2_2"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="225dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex3_2"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="250dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex4_2"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="275dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex5_2"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="300dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex6_2"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="325dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex7_2"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="350dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex8_2"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="375dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/weightId"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="166dp"
+        android:text="Weight:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/ex1_3"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="200dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex2_3"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="225dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex3_3"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="250dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex4_3"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="275dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex5_3"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="300dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex6_3"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="325dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex7_3"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="350dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ex8_3"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="375dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TextViewEdits,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/backBtm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="111dp"
+        android:text="Back"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText" />
+
+
+</RelativeLayout>

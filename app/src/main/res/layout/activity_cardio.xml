@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oip"
+    tools:context=".CardioActivity">
+
+    <TextView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Cardio"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cardiotypeID"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="166dp"
+        android:text="Cardio Type: "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/cardioType2"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="166dp"
+        android:background="#FFFEFE"
+        android:inputType="text"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="208dp"
+        android:text="Length of time: "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/timeId2"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="208dp"
+        android:background="#FFFEFE"
+        android:inputType="text"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="250dp"
+        android:text="Distance: "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/distanceId2"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="250dp"
+        android:background="#FFFEFE"
+        android:inputType="text"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+    <Button
+        android:id="@+id/logId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="473dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/black"
+        android:onClick="onClick"
+        android:text="Log" />
+
+
+</RelativeLayout>

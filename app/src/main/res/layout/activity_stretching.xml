@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oip"
+    tools:context=".StretchingActivity">
+
+    <TextView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Stretching"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/workout_table"
+        android:layout_width="101dp"
+        android:layout_height="402dp"
+        android:layout_marginTop="150dp"
+        tools:ignore="ExtraText">
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text="Stretch"
+            android:textColor="#FDFCFC"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/exercise_1"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text="Stretch"
+            android:textColor="#FDFCFC"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/exercise_2"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text="Stretch"
+            android:textColor="#FDFCFC"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/exercise_3"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text="Stretch"
+            android:textColor="#FDFCFC"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/exercise_4"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text="Stretch"
+            android:textColor="#FDFCFC"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/exercise_5"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text="Stretch"
+            android:textColor="#FDFCFC"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/exercise_6"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text="Stretch"
+            android:textColor="#FDFCFC"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/exercise_7"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text="Stretch"
+            android:textColor="#FDFCFC"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/exercise_8"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/workout_table_2"
+        android:layout_width="95dp"
+        android:layout_height="402dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="150dp"
+        tools:ignore="ExtraText,RtlHardcoded">
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text="# Sets"
+            android:textColor="#FDFCFC"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/exercise_1_1"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_2_1"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_3_1"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_4_1"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_5_1"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_6_1"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_7_1"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_8_1"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/workout_table_3"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="150dp"
+        tools:ignore="ExtraText,RtlHardcoded">
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text="# Reps"
+            android:textColor="#FDFCFC"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/exercise_1_2"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_2_2"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_3_2"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_4_2"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_5_2"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_6_2"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/exercise_7_2"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_8_2"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/workout_table_4"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="297dp"
+        android:layout_marginTop="150dp"
+        tools:ignore="ExtraText,RtlHardcoded">
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text="Weight"
+            android:textColor="#FDFCFC"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/exercise_1_3"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_2_3"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_3_3"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_4_3"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_5_3"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_6_3"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,SpeakableTextPresentCheck,TextSizeCheck,TooManyViews" />
+
+        <EditText
+            android:id="@+id/exercise_7_3"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/exercise_8_3"
+            android:layout_width="270dp"
+            android:layout_height="25dp"
+            android:background="#FDFBFB"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/LogId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/black"
+        android:onClick="onClick"
+        android:text="Log" />
+
+</RelativeLayout>
